@@ -64,32 +64,32 @@ whatsappLink2.addEventListener("click", function(event) {
   handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil Toyota RAV4, bagaimana caranya?");
 });
 
-var whatsappLink3 = document.getElementById("whatsappLink2");
+var whatsappLink3 = document.getElementById("whatsappLink3");
 whatsappLink3.addEventListener("click", function(event) {
   handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil BMW 3 Series, bagaimana caranya?");
 });
 
-var whatsappLink4 = document.getElementById("whatsappLink2");
+var whatsappLink4 = document.getElementById("whatsappLink4");
 whatsappLink4.addEventListener("click", function(event) {
   handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil Volkswagen T-Cross, bagaimana caranya?");
 });
 
-var whatsappLink5 = document.getElementById("whatsappLink2");
+var whatsappLink5 = document.getElementById("whatsappLink5");
 whatsappLink5.addEventListener("click", function(event) {
   handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil Cadillac Escalade, bagaimana caranya?");
 });
 
-var whatsappLink6 = document.getElementById("whatsappLink2");
+var whatsappLink6 = document.getElementById("whatsappLink6");
 whatsappLink6.addEventListener("click", function(event) {
   handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil BMW 4 Series GTI, bagaimana caranya?");
 });
 
-var whatsappLink7 = document.getElementById("whatsappLink2");
+var whatsappLink7 = document.getElementById("whatsappLink7");
 whatsappLink7.addEventListener("click", function(event) {
   handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil BMW 4 Series, bagaimana caranya?");
 });
 
-var whatsappLink8 = document.getElementById("whatsappLink1");
+var whatsappLink8 = document.getElementById("whatsappLink8");
 whatsappLink8.addEventListener("click", function(event) {
   handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil di Ridex, bagaimana caranya?");
 });
