@@ -38,24 +38,58 @@ window.addEventListener("scroll", function () {
 
 
 // Fungsi untuk menangani klik pada tautan WhatsApp
-function handleWhatsAppClick(event) {
+function handleWhatsAppClick(event, message) {
   event.preventDefault(); // Menghentikan perilaku default dari tautan
   
   var adminNumber = "6282210269977"; // Ganti dengan nomor telepon admin
   
   // Pesan yang akan dikirim
-  var message = encodeURIComponent("Halo, saya ingin menyewa mobil di Ridex...");
+  var encodedMessage = encodeURIComponent(message);
 
   // Buat URL khusus untuk membuka WhatsApp ke chat admin dan membuat pesan otomatis
-  var url = "https://wa.me/" + adminNumber + "?text=" + message;
+  var url = "https://wa.me/" + adminNumber + "?text=" + encodedMessage;
 
   // Buka tautan WhatsApp di jendela atau tab baru
   window.open(url, '_blank');
 }
 
 // Ambil tautan WhatsApp dan tambahkan event listener
-var whatsappLink = document.getElementById("whatsappLink1");
-whatsappLink.addEventListener("click", handleWhatsAppClick);
+var whatsappLink1 = document.getElementById("whatsappLink1");
+whatsappLink1.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil di Ridex, bagaimana caranya?");
+});
 
-var whatsappLink = document.getElementById("whatsappLink2");
-whatsappLink.addEventListener("click", handleWhatsAppClick);
+var whatsappLink2 = document.getElementById("whatsappLink2");
+whatsappLink2.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil Toyota RAV4, bagaimana caranya?");
+});
+
+var whatsappLink3 = document.getElementById("whatsappLink2");
+whatsappLink2.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil BMW 3 Series, bagaimana caranya?");
+});
+
+var whatsappLink4 = document.getElementById("whatsappLink2");
+whatsappLink2.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil Volkswagen T-Cross, bagaimana caranya?");
+});
+
+var whatsappLink5 = document.getElementById("whatsappLink2");
+whatsappLink2.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil Cadillac Escalade, bagaimana caranya?");
+});
+
+var whatsappLink6 = document.getElementById("whatsappLink2");
+whatsappLink2.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil BMW 4 Series GTI, bagaimana caranya?");
+});
+
+var whatsappLink7 = document.getElementById("whatsappLink2");
+whatsappLink2.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil BMW 4 Series, bagaimana caranya?");
+});
+
+var whatsappLink8 = document.getElementById("whatsappLink1");
+whatsappLink1.addEventListener("click", function(event) {
+  handleWhatsAppClick(event, "Halo, saya ingin menyewa mobil di Ridex, bagaimana caranya?");
+});
